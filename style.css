@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    background-color:#d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background-color:#0b0f5a;
+    color:white;
+    padding:30px;
+}
+
+.telefone{
+    text-align:right;
+    font: size 40px;
+}
+
+.conteudo{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+
+.imagem img{
+    width:320px;
+}
+
+.texto{
+    margin-left:60px;
+}
+
+h1{
+    font-size:70px;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', serif;
+    letter-spacing:2px;
+}
+
+.frase{
+    font: size 40px;
+    margin-top:20px;
+    line-height:1.4;
+}
+
+.informacoes{
+    display:flex;
+    align-items:center;
+    margin-top:40px;
+}
+
+.bateria{
+    margin-right:80px;
+    font-size:14px;
+}
+
+.icone{
+    width:45px;
+    height:18px;
+    background-color:limegreen;
+    margin-bottom:8px;
+    position:relative;
+}
+
+.icone::after{
+    content:"";
+    width:5px;
+    height:10px;
+    background-color:limegreen;
+    position:absolute;
+    right:-6px;
+    top:4px;
+}
+
+.lista p{
+    margin:5px 0;
+    font-size:14px;
+}
+
+.rodape{
+    text-align:right;
+    margin-top:30px;
+    font-size:14px;
+}
